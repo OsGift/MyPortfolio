@@ -1,0 +1,1 @@
+Thanks for viewing my profile. Kindly contact me for remote opportunities and collaborations
