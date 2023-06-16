@@ -570,14 +570,14 @@
                 Your message has been sent successfully.
                 <p>You will get a reply via email. </p>
                 <p>Thank you</p>
-                <button type="button" class="close" onclick="hideMessage('successMessage')">&times;</button>
+                <!-- <button type="button" class="close" onclick="hideMessage('successMessage')">&times;</button> -->
               </div>
               
               <div id="errorMessage" class="alert alert-danger d-none" role="alert">
                 Error occurred while sending the email. Please try again later.
                 <button type="button" class="close" onclick="hideMessage('errorMessage')">&times;</button>
               </div>   
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <!-- <div class="text-center"><button type="submit">Send Message</button></div> -->
             </form>
   
           </div>
@@ -622,6 +622,7 @@
   <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
 
   <!-- Template Main JS File -->
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
   <script src="assets/js/main.js"></script>
   <script src="assets/js/mail.js"> </script>
 
